@@ -4,10 +4,10 @@ public class Main{
         AttendanceSystemAdapter attendanceSystemSchoolManagementApp = new AttendanceSystemAdapter(attendanceSystem);
 
         GradingSystem gradingSystem = new GradingSystem();
-        Gra gradingSystemSchoolManagementApp = new GradingSystemAdapter(gradingSystem);
+        GradingSystemAdapter gradingSystemSchoolManagementApp = new GradingSystemAdapter(gradingSystem);
 
         LibrarySystem librarySystem = new LibrarySystem();
-        SchoolManagementApp librarySystemSchoolManagementApp = new LibrarySystemAdapter(librarySystem);
+        LibrarySystemAdapter librarySystemSchoolManagementApp = new LibrarySystemAdapter(librarySystem);
 
         System.out.println(attendanceSystemSchoolManagementApp.integrateSystem());
         System.out.println(gradingSystemSchoolManagementApp.integrateSystem());
